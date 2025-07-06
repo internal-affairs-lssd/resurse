@@ -1,39 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru" data-theme="dark">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бюро Внутренних Расследований</title>
-    <link rel="icon" href="https://www.upload.ee/image/18290652/logo-large.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        :root {
-            --primary: #1a3a5f;
-            --secondary: #2c5282;
-            --accent: #e53e3e;
-            --light: #f7fafc;
-            --dark: #1a202c;
-            --gray: #718096;
-            --header-height: 70px;
-            --footer-height: 60px;
-        }
-
-        [data-theme="light"] {
-            --bg: #f0f4f8;
-            --text: #1a202c;
-            --card-bg: #ffffff;
-            --border: #e2e8f0;
-            --nav-bg: #ffffff;
-        }
-
-        [data-theme="dark"] {
-            --bg: #1a202c;
-            --text: #f7fafc;
-            --card-bg: #2d3748;
-            --border: #4a5568;
-            --nav-bg: #1a202c;
-        }
-
         * {
             margin: 0;
             padding: 0;
@@ -42,8 +14,8 @@
         }
 
         body {
-            background-color: var(--bg);
-            color: var(--text);
+            background-color: #1a202c;
+            color: #f7fafc;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -51,9 +23,9 @@
 
         /* Header Styles */
         header {
-            background-color: var(--nav-bg);
-            border-bottom: 2px solid var(--accent);
-            height: var(--header-height);
+            background-color: #1a202c;
+            border-bottom: 2px solid #e53e3e;
+            height: 70px;
             position: sticky;
             top: 0;
             z-index: 100;
@@ -76,7 +48,6 @@
         .brand {
             font-size: 1.5rem;
             font-weight: bold;
-            color: var(--text);
         }
 
         /* Main Content Styles */
@@ -116,7 +87,7 @@
 
         .hero p {
             font-size: 1.1rem;
-            color: var(--gray);
+            color: #718096;
             max-width: 800px;
             margin: 0 auto;
             line-height: 1.6;
@@ -136,8 +107,8 @@
         }
 
         .resource-card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border);
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
             border-radius: 8px;
             padding: 20px;
             text-align: center;
@@ -161,14 +132,14 @@
         }
 
         .resource-desc {
-            color: var(--gray);
+            color: #718096;
             font-size: 0.95rem;
         }
 
         /* Footer Styles */
         footer {
-            background-color: var(--nav-bg);
-            border-top: 1px solid var(--border);
+            background-color: #1a202c;
+            border-top: 1px solid #4a5568;
             padding: 15px 20px;
             text-align: center;
             margin-top: auto;
@@ -188,7 +159,7 @@
 
         .copyright {
             font-size: 0.85rem;
-            color: var(--gray);
+            color: #718096;
         }
 
         .section-title {
